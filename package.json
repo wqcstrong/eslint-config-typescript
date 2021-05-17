@@ -1,0 +1,36 @@
+{
+  "name": "@blucass/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "A set of typescript/javacript lint config rules",
+  "main": "lib/index.js",
+  "repository": "https://github.com/wqcstrong/eslint-config-typescript/blob/main/README.md",
+  "author": "blucass <15555602203@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "eslint --ext .js,.ts --fix ./example"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/eslint-parser": "^7.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6"
+  },
+  "peerDependencies": {
+    "eslint": "^7.26.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "git-cz": "^4.7.6",
+    "eslint": "^7.26.0",
+    "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
