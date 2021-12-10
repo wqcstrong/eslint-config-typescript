@@ -1,14 +1,15 @@
-import { TYPE } from './env-type'
+import { TYPE } from './env-type';
 
-const rightArrayType: string[] = ['right', 'array', 'type']
-const errorArrayType: Array<string> = ['error', 'array', 'type']
+const rightArrayType: string[] = ['right', 'array', 'type'];
+const errorArrayType: Array<string> = ['error', 'array', 'type'];
 
-interface NoEmptyInterface {
-
-}
+interface NoEmptyInterface {}
 
 interface MethodSignatureStyle {
-  errorPropertyFunc (): [];
+  errorPropertyFunc(): [];
   rightPropertyFunc: () => [];
 }
 
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
