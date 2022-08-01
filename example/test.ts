@@ -13,3 +13,7 @@ interface MethodSignatureStyle {
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+function ParamsReassign(name: string) {
+  name = 'eslint';
+}
