@@ -1,6 +1,6 @@
 {
   "name": "@blucass/eslint-config-typescript",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A set of typescript/javacript lint config rules",
   "main": "lib/index.js",
   "repository": "https://github.com/wqcstrong/eslint-config-typescript/blob/main/README.md",
