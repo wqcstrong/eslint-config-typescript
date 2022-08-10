@@ -1,4 +1,4 @@
-let noVar = 'no var declaration';
+const noVar = 'no var declaration';
 
 const noParamReassign = (origin) => {
   origin = 1;
